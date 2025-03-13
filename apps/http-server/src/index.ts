@@ -3,6 +3,8 @@ import { client } from "@repo/db/client"
 
 const app = express();
 
+app.use(express.json()); 
+
 app.get('/',(req,res)=>{
     res.send('hi there')
 })
