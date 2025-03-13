@@ -1,0 +1,22 @@
+{
+  "name": "http-ws",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@repo/db": "workspace:*",
+    "@repo/typescript-config": "workspace:*"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "npm run build && npm run start",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/ws": "^8.18.0",
+    "ws": "^8.18.1"
+  }
+}
